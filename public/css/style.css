@@ -1,0 +1,118 @@
+.container-fluid a  img{
+	height: 50px;
+}
+.title{
+	color: #111; 
+	font-family: Courier, "Lucida Console", monospace;
+	font-size: 25px; 
+	font-weight: bold; 
+	letter-spacing: 1px; 
+	text-decoration: blink;
+	text-align: center;
+	
+	margin-top:20px;
+}
+.nc-home-1{
+	text-align: center;
+	word-spacing: 50px;
+}
+
+.nc-home-2{
+	text-align: center;
+	word-spacing: 50px;
+	padding-top: 2.5%;
+	margin-bottom: 70px;
+}
+
+.nc-home-1 button{
+	margin-top: 2.5%; 
+}
+
+.nc-home-2 button{
+	margin-top: 2.5%; 
+}
+
+.nc-title h1{
+	text-align: center;
+	font-size: 20px;
+	border: 2.5px solid grey;
+	margin-left: 30%; 
+	margin-right: 30%; 
+}
+.nc-title{
+	margin-top: 20px;
+}
+.jumbotron{
+	height:0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	
+}
+
+
+.tec-home-1{
+	text-align: center;
+	word-spacing: 40px;
+}
+
+.tec-home-1 button{
+	margin-top: 2.5%; 
+	margin-bottom: 3.5%;
+}
+
+.exs-home{
+	margin-top: 7%;
+}
+
+.exs-title{
+	color: #111; 
+	font-family: "Courier New";
+	font-size: 20px; 
+	letter-spacing: 1px; 
+	text-decoration: underline;
+	text-align: center;
+	
+	margin-top:20px;
+}
+
+ul{
+	text-align: center;
+	border: solid 2px black;
+	background-color: #A836C0;
+	font-weight: bold;
+}
+
+li a:hover{
+	background-color: #E890F1;
+}
+
+.back-button{ /*atributos botao 'voltar'*/
+	margin-left: 2%;
+	position: -webkit-sticky; /*safari*/
+	position: sticky; 
+	top: 0;
+}
+
+/*pagina de erro exercicios, pagina indisponivel no momento*/
+.unavailable{
+	margin-top: 8%;
+	text-align: center;
+}
+.unavailable h5{
+	margin-top: 2%;
+}
+
+.back-button-unavailable{ /*atributos botao 'voltar'*/
+	margin-left: 5%;
+	position: -webkit-sticky; /*safari*/
+	position: sticky; 
+	top: 0;
+	margin-top: 5%;
+}
+
+/*manuntencao logo pagina*//
+.container-fluid a img{
+	height: 50px;
+}
