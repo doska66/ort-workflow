@@ -9,7 +9,7 @@
 	letter-spacing: 1px; 
 	text-decoration: blink;
 	text-align: center;
-	
+	top: 0;
 	margin-top:20px;
 }
 .nc-home-1{
@@ -115,4 +115,49 @@ li a:hover{
 /*manuntencao logo pagina*//
 .container-fluid a img{
 	height: 50px;
+}
+
+
+
+
+/*Media Queries*/
+
+/*celular*/
+@media (max-width: 567px){
+	.title{
+		font-size: 0%;
+	}
+	html{
+		width: 100%;
+	}
+
+	.btn{
+		font-size: 103%;
+		margin-bottom: 10px;
+	}
+
+	.container h1 {
+		font-size: 110%;
+	}
+}
+
+@media (min-width: 768px){
+	html{
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px){
+	html{
+		width: 100%;
+	}
+	.title{
+		font-size: 0%;
+	}
+}
+
+@media (min-width: 992px){
+	html{
+		width: 100%;
+	}
 }
