@@ -1,0 +1,19 @@
+(( v:: 0.0.2 ))	
+	
+	Notas da atualizacao: 
+		-Implementacao mobile (beta){
+			.ajustes nos tamanhos dos botoes de materias
+			.ajuste na logo ort
+			.titulo 'workflow' nao aparece nas versoes mobile
+			.			
+}
+	
+        -Overview{	
+            .design refeito
+		    .fonte alterada;
+		    .bordas adicionadas/modificadas;
+            .Mudança "resumao" --> "workflow";
+            .cores alteradas;
+            .aplicacao de footer (beta);        
+            
+        }		
