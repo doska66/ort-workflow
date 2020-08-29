@@ -3,7 +3,7 @@
 }
 .title{
 	color: #111; 
-	font-family: Courier, "Lucida Console", monospace;
+	font-family: "Century Gothic", sans-serif;
 	font-size: 25px; 
 	font-weight: bold; 
 	letter-spacing: 1px; 
@@ -12,11 +12,24 @@
 	top: 0;
 	margin-top:20px;
 }
+
+.navbar{
+	border-left: 1.3px solid grey;
+	border-right: 1.3px solid grey;
+	border-bottom: 1.3px solid grey;
+	border-radius: 18px;
+}
+
 .nc-home-1{
 	text-align: center;
 	word-spacing: 50px;
 }
 
+.nc-home-1 button:hover{
+	background-color: #1C1C1C;
+	color:white;
+	border-color: #FADC52;
+}
 .nc-home-2{
 	text-align: center;
 	word-spacing: 50px;
@@ -24,21 +37,54 @@
 	margin-bottom: 70px;
 }
 
+.nc-home-2 button:hover{
+	background-color: #1C1C1C;
+	color:white;
+	border-color: #1C1C1C;
+}
 .nc-home-1 button{
 	margin-top: 2.5%; 
+	border: none;
+	color: white;
+	background-color: #4C0084;
+
 }
 
 .nc-home-2 button{
 	margin-top: 2.5%; 
+/*	background-color: #FCE139;
+	color: black; */
+	background-color: #4C0084;
 }
 
 .nc-title h1{
 	text-align: center;
 	font-size: 20px;
-	border: 2.5px solid grey;
+	border-bottom: 1.2px solid black;
+	border-top: 1.2px solid black;
+	border-radius: 2px;
 	margin-left: 30%; 
 	margin-right: 30%; 
+	color:black;
+	border-width: 50%;
+	background-color: #F7F7F7;
 }
+
+/*
+.nc-title h1{
+	text-align: center;
+	font-size: 20px;
+	border-left: 5.0px solid black;
+	border-right: 5.0px solid black;
+	border-bottom: 3.5px solid black;
+	border-top: 2.0px solid black;
+	border-radius: 30px;
+	background-color: #99004D;
+	margin-left: 30%; 
+	margin-right: 30%; 
+	color:white;
+}
+*/
 .nc-title{
 	margin-top: 20px;
 }
@@ -60,8 +106,30 @@
 .tec-home-1 button{
 	margin-top: 2.5%; 
 	margin-bottom: 3.5%;
+	color:white;
+	background-color: #1C1C1C;
+	border:none;
+}
+.tec-home-1 button:hover{
+	color:white;
+	background-color: #4C0084;
+
+}
+/*
+.btn-warning{
+	background-color: #BB5AF2;
 }
 
+.btn-info{
+	background-color: #FF6800;
+}
+
+.btn-danger{
+	background-color: #E82D20;
+} */
+/*.btn-secondary{
+	background-color: #1A63FF;
+}*/
 .exs-home{
 	margin-top: 7%;
 }
@@ -79,20 +147,32 @@
 
 ul{
 	text-align: center;
-	border: solid 2px black;
-	background-color: #A836C0;
+	border: solid 1.5px black;
+	border-radius: 8px;
+	background-color: #176107;
 	font-weight: bold;
 }
 
 li a:hover{
-	background-color: #E890F1;
+	background-color: #173707;
+	color: white;
+	border-radius: 8px;
+
 }
+
+
+
 
 .back-button{ /*atributos botao 'voltar'*/
 	margin-left: 2%;
 	position: -webkit-sticky; /*safari*/
 	position: sticky; 
 	top: 0;
+}
+.back-button button{
+	background-color: #2B2B2B;
+	color: white;
+	font-size: 96%;
 }
 
 /*pagina de erro exercicios, pagina indisponivel no momento*/
@@ -102,6 +182,9 @@ li a:hover{
 }
 .unavailable h5{
 	margin-top: 2%;
+}
+.container-error a img{
+	width: 10%;
 }
 
 .back-button-unavailable{ /*atributos botao 'voltar'*/
@@ -119,6 +202,15 @@ li a:hover{
 
 
 
+.page-footer{
+	background-color: grey;
+	color: white;
+	margin-top: 5%;
+}
+.page-footer a{
+	text-decoration: none;
+	color: white;
+}
 
 /*Media Queries*/
 
@@ -137,13 +229,56 @@ li a:hover{
 	}
 
 	.container h1 {
-		font-size: 110%;
+		font-size: 10%;
 	}
+
+	.container-fluid a img{
+		width: 110%;
+		height: 60px;
+	}
+
+	.container-fluid ul{
+		font-size: 105%;
+	}
+	.navbar{
+		border: none;
+	}
+	.page-footer{
+		font-size: 80%;
+	}
+	.back-button{
+		font-size: 80%;
+	}
+
 }
 
 @media (min-width: 768px){
 	html{
 		width: 100%;
+	}
+		.title{
+		font-size: 0%;
+	}
+
+	.btn{
+		font-size: 97%;
+		margin-bottom: 8px;
+	}
+
+	.container h1 {
+		font-size: 105%;
+	}
+
+	.container-fluid a img{
+		width: 105%;
+		height: 55px;
+	}
+
+	.container-fluid ul{
+		font-size: 100%;
+	}
+		.page-footer{
+		font-size: 80%;
 	}
 }
 
@@ -154,10 +289,55 @@ li a:hover{
 	.title{
 		font-size: 0%;
 	}
+		.btn{
+		font-size: 100%;
+		margin-bottom: 8px;
+	}
+
+	.container h1 {
+		font-size: 105%;
+	}
+
+	.container-fluid a img{
+		width: 105%;
+		height: 55px;
+	}
+		.page-footer{
+		font-size: 90%;
+	}
+
+	.container-fluid ul{
+		font-size: 100%;
+	}
+
 }
 
 @media (min-width: 992px){
 	html{
 		width: 100%;
+	}
+		.btn{
+		font-size: 105%;
+		margin-bottom: 10px;
+	}
+
+	.container h1 {
+		font-size: 120%;
+	}
+
+	.container-fluid a img{
+		width: 100%;
+		height: 50px;
+	}
+
+	.container-fluid ul{
+		font-size: 100%;
+	}
+	.title{
+		font-size: 115%;
+		font-family: "Impact", "Charcoal", sans-serif;
+	}
+		.page-footer{
+		font-size: 105%;
 	}
 }
