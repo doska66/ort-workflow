@@ -14,7 +14,7 @@
 
                                                                                                                                     
 
-                                                                                                                   versao corrente  ->   v:: 0.1.1
+                                                                                                                   versao corrente  ->   v:: 0.1.2
 
                                                                                          este arquivo foi protocolado em: 25 de agosto de 2020
                                                                                                                                    
