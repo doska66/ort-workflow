@@ -212,6 +212,14 @@ li a:hover{
 	color: white;
 }
 
+.pdf{
+	text-align: center;
+}
+.pdf button{
+	margin-left: 30px;
+	margin-top: 25px;
+}
+
 /*Media Queries*/
 
 /*celular*/
