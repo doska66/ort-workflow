@@ -6,8 +6,13 @@ html, body {
   height: 100%;
 }
 .container-fluid a  img{
-	height: 50px;
+	height: 100px;
 }
+
+hr{
+	border: solid grey 1px;
+}
+
 .title{
 	color: #111; 
 	font-family: "Century Gothic", sans-serif;
@@ -21,12 +26,15 @@ html, body {
 }
 
 .navbar{
-	border-left: 1.3px solid grey;
-	border-right: 1.3px solid grey;
-	border-bottom: 1.3px solid grey;
+	border-left: 1.3px solid #d9d9d9;
+	border-right: 1.3px solid #d9d9d9;
+	border-bottom: 1.3px solid #d9d9d9;
 	border-radius: 18px;
 }
-
+body{
+	background-color: #fcfcfc;
+	padding-bottom: 10%;
+}
 .nc-home-1{
 	text-align: center;
 	word-spacing: 50px;
@@ -36,6 +44,10 @@ html, body {
 	background-color: #1C1C1C;
 	color:white;
 	border-color: #FADC52;
+}
+.p{
+	text-align: center;
+	text-decoration: none;
 }
 .nc-home-2{
 	text-align: center;
@@ -63,6 +75,9 @@ html, body {
 	color: black; */
 	background-color: #4C0084;
 }
+.d-flex{
+	margin-left: 40%;
+}
 
 .nc-title h1{
 	text-align: center;
@@ -76,6 +91,15 @@ html, body {
 	border-width: 50%;
 	background-color: #F7F7F7;
 }
+.home-title{
+	text-align: center;
+	margin-top: 6%;
+
+}
+.home-title p{
+	font-size: 45px;
+}
+
 
 /*
 .nc-title h1{
@@ -95,6 +119,30 @@ html, body {
 .nc-title{
 	margin-top: 20px;
 }
+#botao1{
+	border: none;
+	background-color: #a7a9ab;
+	text-align: center;
+	height: 50%;
+	width: 100%;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+}
+#botao2{
+	border: none;
+	background-color: #a7a9ab;
+	text-align: center;
+	height: 50%;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#materiais{
+	text-align: center;
+}
+
 .jumbotron{
 	height:0px;
 	padding-top: 0px;
@@ -124,39 +172,50 @@ html, body {
 }
 
 /*Material de estudo *resumos* */
-.sub-materias{
+.sub-materiasexc12{ 		/*excNUMERO corresponde ao numero de sub materias*/
     text-align: center;
-    margin-bottom: 60%;
+    margin-bottom: 63%;
     font-weight: bold;
 }
-.sub-materiasexc1{ /* [exc]-> correcao especifica de alinhamento da div ** margin da lista ** */
+.sub-materiasexc7{ /* [exc]-> correcao especifica de alinhamento da div ** margin da lista ** */
     text-align: center;
     margin-bottom: 40%;
     font-weight: bold;
 }
-.sub-materiasexc2{ /*correcao especifica de alinhamento da div ** margin da lista ** */
-    text-align: center;
-    margin-bottom: 38%;
-    font-weight: bold;
-}
+
 .sub-materiasexc3{ /*correcao especifica de alinhamento da div ** margin da lista ** */
     text-align: center;
-    margin-bottom: 20%;
+    margin-bottom: 24%;
     font-weight: bold;
 }
 .sub-materiasexc4{ /*correcao especifica de alinhamento da div ** margin da lista ** */
     text-align: center;
-    margin-bottom: 25%;
+    margin-bottom: 27%;
     font-weight: bold;
 }
 .sub-materiasexc5{ /*correcao especifica de alinhamento da div ** margin da lista ** */
     text-align: center;
-    margin-bottom: 29%;
+    margin-bottom: 30%;
     font-weight: bold;
+}
+
+.sub-materiasexc6{
+	margin-bottom: 37%;
+	text-align: center;
+	font-weight: bold;
 }
 .display-4{
     color: black;
     font-family: monospace;
+}
+.display-4 {
+	font-size: 1.5rem;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
 }
 
 /*
@@ -219,25 +278,6 @@ li a:hover{
 	font-size: 96%;
 }
 
-/*pagina de erro exercicios, pagina indisponivel no momento*/
-.unavailable{
-	margin-top: 8%;
-	text-align: center;
-}
-.unavailable h5{
-	margin-top: 2%;
-}
-.container-error a img{
-	width: 10%;
-}
-
-.back-button-unavailable{ /*atributos botao 'voltar'*/
-	margin-left: 5%;
-	position: -webkit-sticky; /*safari*/
-	position: sticky; 
-	top: 0;
-	margin-top: 5%;
-}
 
 /*manuntencao logo pagina*//
 .container-fluid a img{
@@ -259,10 +299,10 @@ li a:hover{
 .pdf{
 	text-align: center;
 }
-/*.pdf button{
+.pdf button{
 	margin-left: 30px;
 	margin-top: 25px;
-}*/
+
 
 /*Media Queries*/
 
@@ -389,7 +429,7 @@ li a:hover{
 		font-size: 115%;
 		font-family: "Impact", "Charcoal", sans-serif;
 	}
-		.page-footer{
+	.page-footer{
 		font-size: 105%;
 	}
 }

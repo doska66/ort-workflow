@@ -15,6 +15,20 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 	<title>Workflow: Home</title>
+	<!--Fonte-->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"" rel="stylesheet">
+	<style>
+	 h1{
+       font-family:'Roboto Mono', monospace;
+     }
+	 button{
+	   font-family:'Roboto Mono', monospace;
+	 }
+	 li{
+	   font-family:'Roboto Mono',monospace;
+	 }
+	</style>
+	<!--Fonte-->
 </head>
 <body>
 	
@@ -23,6 +37,7 @@
         <div class="col-lg-12 col-md-12 col-xs-6">
 	<!-- NAV -->
 	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+
 	<div class="container-fluid">
 	<!--	<a class="navbar-brand" href="http://ort.org.br/" target="blank"><img src="assets/img/ort_logo.png" class="logo-nav"></a> -->
 		
@@ -33,90 +48,116 @@
 	</div>
 		
 		<div class="title">
-			<p>Workflow</p>
+			<h1>Workflow</h1>
 		</div>
+
 	<div class="container-fluid">	
+		<div class="d-flex">
+			 <div class="dropdown mr-1">
+			  <button type="button" class="btn btn-secondary dropdown-toggle" id="botao1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			     Resumos
+			  </button>
+			  <div class="dropdown-menu scrollable-menu" aria-labelledby="resumos">
+			      <li class="dropdown-header"><center style="color:white; background-color: #a7a9ab; font-weight: bold;">Núcleo Comum</center></li>
+			      <button class="dropdown-item" type="button"><a href="assets/pags-materias/nc/fisica.html" style="text-decoration: none"><center>Física</center></a></button>
+			      <button class="dropdown-item" type="button"><a href="assets/pags-materias/nc/biologia.html" style="text-decoration: none"><center>Biologia</center></a></button>
+			      <button class="dropdown-item" type="button"><a href="assets/pags-materias/nc/matematica.html" style="text-decoration: none"><center>Matemática</center></a></button>
+			      <button class="dropdown-item" type="button"><a href="assets/pags-materias/nc/quimica.html" style="text-decoration: none"><center>Química</center></a></button>
+		          <button class="dropdown-item" type="button"><a href="assets/pags-materias/nc/portugues.html" style="text-decoration: none"><center>Português</center></a></button>
+		          <button class="dropdown-item" type="button"><a href="assets/pags-materias/nc/geografia.html" style="text-decoration: none"><center>Geografia</center></a></button>
+			      <button class="dropdown-item" type="button"><a href="assets/pags-materias/nc/literatura.html" style="text-decoration: none"><center>Literatura</center></a></button>
+			      <button class="dropdown-item" type="button"><a href="assets/pags-materias/nc/sociologia.html" style="text-decoration: none"><center>Sociologia</center></a></button>
+			      <button class="dropdown-item" type="button"><a href="assets/pags-materias/nc/historia.html" style="text-decoration: none"><center>História</center></a></button>
+			      <button class="dropdown-item" type="button"><a href="assets/pags-materias/nc/filosofia.html" style="text-decoration: none"><center>Filosofia</center></a></button>
+				  <li class="dropdown-header"><center style="color:white; background-color: #a7a9ab; font-weight: bold;">Técnicos</li>
+				  <button class="dropdown-item" type="button"><a href="assets/pags-materias/tec/eletro.html" style="text-decoration: none"><center>Eletrônica</center></a></button>
+			      <button href="assets/pags-materias/tec/mm.html" class="dropdown-item" type="button"><a href="assets/pags-materias/tec/mm.html" style="text-decoration: none"><center>Multimídias</center></a></button>
+			      <button href="assets/pags-materias/tec/pr.html" class="dropdown-item" type="button"><a href="assets/pags-materias/tec/pr.html" style="text-decoration: none"><center>Programação</center></a></button>
+			      <button href="assets/pags-materias/tec/ep.html" class="dropdown-item" type="button"><a href="assets/pags-materias/tec/ep.html" style="text-decoration: none"><center>Empreendedorismo</center></a></button>
+			      <button href="assets/pags-materias/tec/bt.html" class="dropdown-item" type="button"><a href="assets/pags-materias/tec/bt.html" style="text-decoration: none"><center>Bioteclonogia</center></a></button>
+			   	  <!--
+		          <li><a><center>Hebraico</center></a></li>
+			      <li><a><center>Inglês</center></a></li>
+			      <li><a><center>Gestão de Negócios</center></a></li>
+			      <li><a><center>Redação</center></a></li>
+			      <li><a><center>História Judaica</center></a></li>-->
+			  </div>
+		</div>
+		<div class="dflex">
+				 <button type="button" class="btn btn-secondary" id="botao2">
+			     <a class="nav-link" href="assets/pag-exercicios/index.html" style="color: white">Exercícios</a>
+			    </button>
+			  </div>
+		</div>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
-			
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="assets/pag-exercicios/index.html" style="color: white">Exercícios</a>
-				</li>
-			</ul>
 		</div>
 	</div>
 	</nav>
 
-	<!--nucleo comum-->
 <div class="container">
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
 	<div class="home-materias">
-		<div class="nc-title"> 	
-			<div class="jumbotron jumbotron-fluid">
-		  		<div class="container">
-		    	<h1 class="display-4">Núcleo Comum</h1>
-		  		</div>
-			</div>
+	<div class="nc-title"> 	
 		</div>
-		<div class="nc-home-1">
-			<a href="assets/pags-materias/nc/fisica.html"><button type="button" class="btn btn-primary">Física</button></a>
-			<a href="assets/pags-materias/nc/biologia.html"><button type="button" class="btn btn-success">Biologia</button></a>
-			<a href="assets/pags-materias/nc/matematica.html"><button type="button" class="btn btn-danger">Matemática</button></a>
-			<a href="assets/pags-materias/nc/quimica.html"><button type="button" class="btn btn-warning">Química</button></a>
-			<a href="assets/pags-materias/nc/portugues.html"><button type="button" class="btn btn-info">Português</button></a>
+		<div class="nc-home-1>
+           <!--Aqui começa "carossel" -->
+		   <div id="carouselExampleControls" class="carouselslide" data-hide="carousel"> 
+		     <div class="carousel-inner">
+			  <div class="carousel-inner active">
+			   <div class="carousel-item active">
+			    <img class="d-block w-100" src="como_usar_site.jpg" alt="Slide1">
+			   </div>
+			   <div class="carousel-item active">
+			    <img class="d-block w-100" src="como_usar_exercicios.jpg" alt="Slide2">
+			   </div>
+			   <div class="carousel-item active">
+			    <img class="d-block w-100" src="como_usar_resumos.jpg" alt="Slide3">
+			   </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				 <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				 <span class="sr-only">Previous</span>
+			  </a>
+		   </div>
+       <!--Aqui termina o carossel -->
+ </div>
 		</div>
-		<div class="nc-home-2">
-			<a href="assets/pags-materias/nc/geografia.html"><button type="button" class="btn btn-dark">Geografia</button></a>
-			<a href="assets/pags-materias/nc/literatura.html"><button type="button" class="btn btn-dark">Literatura</button></a>
-			<a href="assets/pags-materias/nc/sociologia.html"><button type="button" class="btn btn-dark">Sociologia</button></a>
-			<a href="assets/pags-materias/nc/historia.html"><button type="button" class="btn btn-dark">História</button></a>
-			<a href="assets/pags-materias/nc/filosofia.html"><button type="button" class="btn btn-dark">Filosofia</button></a>
+		<div class="home-text">
+			<div class="home-title"><p class="display-4">O que é o Workflow?</p></div>	
+		<hr>	
+			<h5 class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi cupiditate amet accusamus harum architecto maiores. Id nostrum tenetur facere, doloribus est fugiat odit aliquam iusto ratione. Accusantium temporibus est autem.
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel pariatur, culpa praesentium rem quod, eveniet consequuntur vero autem aut quam in natus adipisci dolore fuga. Temporibus nostrum voluptatem earum quo?
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem odit sit odio voluptate asperiores quas reiciendis corporis dicta, totam facere deserunt recusandae libero fuga dolorem ut laudantium? Inventore, distinctio nihil.
+			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ullam accusamus numquam earum, deserunt maiores? Doloribus architecto tenetur cum at minus obcaecati id consequatur est cupiditate unde. Dolore, molestias placeat.
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus officiis suscipit asperiores fugit exercitationem nesciunt tenetur dignissimos corrupti ipsam aperiam ab eligendi dicta error optio similique cupiditate iste, consectetur ipsum!
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sunt debitis animi, neque corrupti unde officiis illo dolore vero vitae quos quaerat laudantium natus saepe omnis tempore similique corporis quo?	
+				
+			</h5>
+
+			<div class="home-title"><p class="display-4">Como contribuir?</p></div>
+			<hr>
+			<h5 class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi cupiditate amet accusamus harum architecto maiores. Id nostrum tenetur facere, doloribus est fugiat odit aliquam iusto ratione. Accusantium temporibus est autem.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel pariatur, culpa praesentium rem quod, eveniet consequuntur vero autem aut quam in natus adipisci dolore fuga. Temporibus nostrum voluptatem earum quo?
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem odit sit odio voluptate asperiores quas reiciendis corporis dicta, totam facere deserunt recusandae libero fuga dolorem ut laudantium? Inventore, distinctio nihil.
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ullam accusamus numquam earum, deserunt maiores? Doloribus architecto tenetur cum at minus obcaecati id consequatur est cupiditate unde. Dolore, molestias placeat.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus officiis suscipit asperiores fugit exercitationem nesciunt tenetur dignissimos corrupti ipsam aperiam ab eligendi dicta error optio similique cupiditate iste, consectetur ipsum!
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sunt debitis animi, neque corrupti unde officiis illo dolore vero vitae quos quaerat laudantium natus saepe omnis tempore similique corporis quo?	
+					
+				</h5>
 		
-	<!--
-			<button type="button" class="btn btn-dark">Hebraico</button>
-			<button type="button" class="btn btn-dark">Ingles</button>
-			<button type="button" class="btn btn-dark">Gestao de Negocios</button>
-			<button type="button" class="btn btn-dark">Redacao</button>
-			<button type="button" class="btn btn-dark">Historia Judaica</button>
-			<button type="button" class="btn btn-link">Link</button> -->
-
 		</div>
 
-		<div class="nc-title"> 	
-			<div class="jumbotron jumbotron-fluid">
-		  		<div class="container">
-		    	<h1 class="display-4">Técnicos</h1>
-		  		</div>
-			</div>
-		</div>
-		<div class="tec-home-1">
-
-			<a href="assets/pags-materias/tec/eletro.html"><button type="button" class="btn btn-warning">EL</button></a>
-			<a href="assets/pags-materias/tec/mm.html"><button type="button" class="btn btn-info">MM</button></a>
-			<a href="assets/pags-materias/tec/pr.html"><button type="button" class="btn btn-danger">PR</button></a>
-			<a href="assets/pags-materias/tec/ep.html"><button type="button" class="btn btn-secondary">EP</button></a>
-			<a href="assets/pags-materias/tec/bt.html"><button type="button" class="btn btn-success">BT</button></a>
-		
-		</div>
-	</div>
-	  
 			</div>
 	   </div>
 	</div>
 </div>
 </div>
 </div>
-<!-- Footer -->
-<footer class="page-footer font-small blue">
 
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© Compartilhe seu resumo com a gente. Envie para o email: 
-    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="blank"> ortworkflow@gmail.com</a>
-  </div>
-  <!-- Copyright -->
-
-</footer>
-<!-- Footer -->
 </body>
 </html>
