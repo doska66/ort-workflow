@@ -1,0 +1,12 @@
+.img_exercice {
+	align-self: center;
+}
+#enunciado_box {
+	padding: 5%;
+}
+#form1 {
+	display: block;
+}
+#submitbutton, #form2, #submitbutton2, #form3, #submitbutton3, #form4, #submitbutton4 {
+	display: none;
+}
