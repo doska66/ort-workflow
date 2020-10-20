@@ -1,31 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- CSS only -->
+	<!-- CSS only -->
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-<link rel="stylesheet" type="text/css" href="../public/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../public/css/style.css">
 
-<!-- JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<!-- JS, Popper.js, and jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-	<style type="text/css">
-		.img_exercice {
-			align-self: center;
-		}
-		#enunciado_box {
-			padding: 5%;
-		}
-		#form1 {
-			display: block;
-		}
-		#submitbutton, #form2, #submitbutton2, #form3, #submitbutton3 {
-			display: none;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="extensions/pag_exercicios_fisica.css">
 	<title>Teste</title>
 </head>
 <body>
@@ -50,7 +37,7 @@
 			
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="../index.html" style="color: white">Home</a>
+					<a class="nav-link" href="../../index.html" style="color: white">Home</a>
 				</li>
 			</ul>
 		</div>
@@ -60,7 +47,7 @@
 		<div id ="enunciado_box">
 			<p id = "enunciado">(Enem/2018) Um piloto testa um carro em uma reta longa de um autódromo. A posição do carro nessa reta, em função do tempo, está representada no gráfico.</p>
 		</div>
-		<div class="img_exercice"><img id = "img_exercice" width="100%" src="cinematicaenem.jpg"></div>
+		<div class="img_exercice"><img id = "img_exercice" width="100%" src="imgs/cinematicaenem.jpg"></div>
 		<div id="enunciado_box">
 			<p id="enunciado_secundario">Os pontos em que a velocidade do carro é menor e maior são, respectivamente:</p>
 			<form style ="display: block;" id="form1">
@@ -105,110 +92,48 @@
 				<input disabled="true" id="gabarito3" type = "text">
 				<input type="button" style = "display: none;" name="submit" value="Responder" class="submit" id = "submitbutton3" onclick="teste2(this.name)">
 			</form>
+			<form id="form4">
+				<input type="radio" name="questão" id = "1c" value = "A" onclick="responder(this.value)"><label id="1clabel"> igual no aquecimento e igual no resfriamento</label>
+				<br>
+				<input type="radio" name="questão" id = "2c" value = "B" onclick="responder(this.value)"><label id="2clabel"> maior no aquecimento e igual no resfriamento.</label>
+				<br>
+				<input type="radio" name="questão" id = "3c" value = "C" onclick="responder(this.value)"><label id="3clabel"> menor no aquecimento e igual no resfriamento.</label>
+				<br>
+				<input type="radio" name="questão" id = "4c" value = "D" onclick="responder(this.value)"><label id="4clabel"> maior no aquecimento e menor no resfriamento.</label>
+				<br>
+				<input type="radio" name="questão" id = "5c" value = "E" onclick="responder(this.value)"><label id="5clabel"> maior no aquecimento e maior no resfriamento.</label>
+				<br>
+				<input disabled="true" id="gabarito4" type = "text">
+				<input type="button" style = "display: none;" name="submit" value="Responder" class="submit" id = "submitbutton4" onclick="teste2(this.name)">
+			</form>
+			<form id="form5">
+				<input type="radio" name="questão" id = "1d" value = "A" onclick="responder(this.value)"><label id="1dlabel"> maior pressão de vapor.</label>
+				<br>
+				<input type="radio" name="questão" id = "2d" value = "B" onclick="responder(this.value)"><label id="2dlabel"> menor massa molecular.</label>
+				<br>
+				<input type="radio" name="questão" id = "3d" value = "C" onclick="responder(this.value)"><label id="3dlabel"> maior compressibilidade.</label>
+				<br>
+				<input type="radio" name="questão" id = "4d" value = "D" onclick="responder(this.value)"><label id="4dlabel"> menor energia de ativação.</label>
+				<br>
+				<input type="radio" name="questão" id = "5d" value = "E" onclick="responder(this.value)"><label id="5dlabel"> menor capacidade calorífica.</label>
+				<br>
+				<input disabled="true" id="gabarito5" type = "text">
+				<input type="button" style = "display: none;" name="submit" value="Responder" class="submit" id = "submitbutton5" onclick="teste2(this.name)">
+			</form>
 		</div>
 	</article>
-	<script type="text/javascript">
-		
-		var resspondido = true
-		var resspondido2 = true
-		var resspondido3 = true
-
-		function responder(respondido){
-			if(document.getElementById("form1").style.display == "block"){
-				if(resspondido == true){
-					var botao = document.getElementById('submitbutton')
-					botao.name = respondido
-					botao.style.display = "block"
-				}
-			}
-			if(document.getElementById("form2").style.display == "block"){
-				if(resspondido2 == true){
-					var botao = document.getElementById('submitbutton2')
-					botao.name = respondido
-					botao.style.display = "block"
-				}
-			}
-			if(document.getElementById("form3").style.display == "block"){
-				if(resspondido3 == true){
-					var botao = document.getElementById('submitbutton3')
-					botao.name = respondido
-					botao.style.display = "block"
-				}
-			}
-		}
-		function teste2(resposta){
-			if(document.getElementById("form1").style.display == "block"){
-				var label = document.getElementById('gabarito')
-				if(resposta == "C"){
-					label.value="Acertou"
-				}else{
-					label.value="Errou"
-				}
-				document.getElementById('submitbutton').style.display = "none"
-				resspondido = false
-				for(var i = 1;i <= 5; i++){
-					document.getElementById(i).disabled = true;
-				}
-			}
-			if(document.getElementById("form2").style.display == "block"){
-				var label = document.getElementById('gabarito2')
-				if(resposta == "B"){
-					label.value="Acertou"
-				}else{
-					label.value="Errou"
-				}
-				document.getElementById('submitbutton2').style.display = "none"
-				resspondido2 = false
-				for(var i = 1;i <= 5; i++){
-					document.getElementById(i+"a").disabled = true;
-				}
-			}
-			if(document.getElementById("form3").style.display == "block"){
-				var label = document.getElementById('gabarito3')
-				if(resposta == "B"){
-					label.value="Acertou"
-				}else{
-					label.value="Errou"
-				}
-				document.getElementById('submitbutton3').style.display = "none"
-				resspondido2 = false
-				for(var i = 1;i <= 5; i++){
-					document.getElementById(i+"b").disabled = true;
-				}
-			}
-		}
-	</script>
+	<script type="text/javascript" src="extensions/pag_exercicios_fisica.js"></script>
 	<aside class="question_shown">
-		<button value = "cinematica" onclick="mudar(this.value)" class="selectquestion">Mecânica</button>
+		<button value = "cinematica" onclick="mudar(this.value)" class="selectquestion">Cinemática</button>
 		<br>
 		<button value = "mecanica" onclick="mudar(this.value)" class="selectquestion">Dinâmica</button>
 		<br>
 		<button value = "empuxo" onclick="mudar(this.value)" class="selectquestion">Estática e Hidrostática</button>
+		<br>
+		<button value = "termometria" onclick="mudar(this.value)" class="selectquestion">Termometria</button>
+		<br>
+		<button value = "termodinamica" onclick="mudar(this.value)" class="selectquestion">Termodinâmica</button>
 	</aside>
-	<script type="text/javascript">
-		function mudar(questaoEscolhida){
-			document.getElementById("img_exercice").src = questaoEscolhida + "enem.jpg"
-			if(questaoEscolhida == "cinematica"){
-				document.getElementById("enunciado").innerHTML = "(Enem/2018) Um piloto testa um carro em uma reta longa de um autódromo. A posição do carro nessa reta, em função do tempo, está representada no gráfico."
-				document.getElementById("enunciado_secundario").innerHTML = "Os pontos em que a velocidade do carro é menor e maior são, respectivamente:"
-				document.getElementById("form1").style.display = "block"
-				document.getElementById("form2").style.display = "none"
-				document.getElementById("form3").style.display = "none"
-			} else if(questaoEscolhida == "mecanica"){
-				document.getElementById("enunciado").innerHTML = "(Enem/2017) Em uma colisão frontal entre dois automóveis, a força que o cinto de segurança exerce sobre o tórax e abdômen do motorista pode causar lesões graves nos órgãos internos. Pensando na segurança do seu produto, um fabricante de automóveis realizou testes em cinco modelos diferentes de cinto. Os testes simularam uma colisão de 0,30 segundo de duração, e os bonecos que representavam os ocupantes foram equipados com acelerômetros. Esse equipamento registra o módulo da desaceleração do boneco em função do tempo. Os parâmetros como massa dos bonecos, dimensões dos cintos e velocidade imediatamente antes e após o impacto foram os mesmos para todos os testes. O resultado final obtido está no gráfico de aceleração por tempo."
-				document.getElementById("enunciado_secundario").innerHTML = "Qual modelo de cinto oferece menor risco de lesão ao motorista?"
-				document.getElementById("form1").style.display = "none"
-				document.getElementById("form2").style.display = "block"
-				document.getElementById("form3").style.display = "none"
-			} else if(questaoEscolhida == "empuxo"){
-				document.getElementById("enunciado").innerHTML = "(Enem/2010) Em um experimento realizado para determinar a densidade da água de um lago, foram utilizados alguns materiais conforme ilustrado: um dinamômetro D com graduação de 0 N a 50 N e um cubo maciço e homogêneo de 10 cm de aresta e 3 kg de massa. Inicialmente, foi conferida a calibração do dinamômetro, constatando-se a leitura de 30 N quando o cubo era preso ao dinamômetro e suspenso no ar. Ao mergulhar o cubo na água do lago, até que metade do seu volume ficasse submersa, foi registrada a leitura de 24 N no dinamômetro."
-				document.getElementById("enunciado_secundario").innerHTML = "Considerando que a aceleração da gravidade local é de 10 m/s, a densidade da água do lago, em g/cm³, é"
-				document.getElementById("form1").style.display = "none"
-				document.getElementById("form2").style.display = "none"
-				document.getElementById("form3").style.display = "block"
-			}
-		}
-	</script>
    </div>
   </div>
   </div>
