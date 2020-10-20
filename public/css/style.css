@@ -224,6 +224,16 @@ body{
     margin-bottom: 63%;
     font-weight: bold;
 }
+.sub-materiasexc17{
+	text-align: center;
+    margin-bottom: 92%;
+    font-weight: bold;
+}
+.sub-materiasexc9{
+	text-align: center;
+    margin-bottom: 49%;
+    font-weight: bold;
+}
 .sub-materiasexc7{ /* [exc]-> correcao especifica de alinhamento da div ** margin da lista ** */
     text-align: center;
     margin-bottom: 40%;
@@ -326,7 +336,7 @@ li a:hover{
 }
 
 
-/*manuntencao logo pagina*//
+/*manuntencao logo pagina*/
 .container-fluid a img{
 	  height: 50px;
 }

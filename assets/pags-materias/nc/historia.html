@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- CSS only -->
+
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+
 <link rel="stylesheet" type="text/css" href="../../../public/css/style.css">
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
 <!-- JS, Popper.js, and jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-	<title>Resumão: História</title>
+	<title>Workflow: Home</title>
+	<!--Fonte-->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"" rel="stylesheet">
+	<!--Fonte-->
 </head>
 <body>
+	
+ <div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-6">
 	<!-- NAV -->
-<div class="container">
- <div class="row">
- <div class="col-lg-12 col-md-12 col-xs-6">
 	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+
 	<div class="container-fluid">
-			<!--	<a class="navbar-brand" href="http://ort.org.br/" target="blank"><img src="../img/ort_logo.png" class="logo-nav"></a> -->
+	<!--	<a class="navbar-brand" href="http://ort.org.br/" target="blank"><img src="assets/img/ort_logo.png" class="logo-nav"></a> -->
 		
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 
@@ -32,14 +39,46 @@
 		<div class="title">
 			<p>Workflow</p>
 		</div>
+
 	<div class="container-fluid">	
+		<div class="d-flex">
+			 <div class="dropdown mr-1">
+			  <button type="button" class="btn btn-secondary dropdown-toggle" id="botao1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			     Resumos
+			  </button>
+			  <div class="dropdown-menu scrollable-menu" aria-labelledby="resumos">
+			      <li class="dropdown-header"><center style="color:white; background-color: #a7a9ab; font-weight: bold;">Núcleo Comum</center></li>
+			      <button class="dropdown-item" style="font-family:'Roboto Mono', monospace" type="button"><a href="fisica.html" style="text-decoration: none"><center>Física</center></a></button>
+			      <button class="dropdown-item" style="font-family:'Roboto Mono', monospace" type="button"><a href="biologia.html" style="text-decoration: none"><center>Biologia</center></a></button>
+			      <button class="dropdown-item" style="font-family:'Roboto Mono', monospace" type="button"><a href="matematica.html" style="text-decoration: none"><center>Matemática</center></a></button>
+			      <button class="dropdown-item" style="font-family:'Roboto Mono', monospace" type="button"><a href="quimica.html" style="text-decoration: none"><center>Química</center></a></button>
+		          <button class="dropdown-item" style="font-family:'Roboto Mono', monospace" type="button"><a href="portugues.html" style="text-decoration: none"><center>Português</center></a></button>
+		          <button class="dropdown-item" style="font-family:'Roboto Mono', monospace" type="button"><a href="geografia.html" style="text-decoration: none"><center>Geografia</center></a></button>
+			      <button class="dropdown-item" style="font-family:'Roboto Mono', monospace" type="button"><a href="literatura.html" style="text-decoration: none"><center>Literatura</center></a></button>
+			      <button class="dropdown-item" style="font-family:'Roboto Mono', monospace" type="button"><a href="sociologia.html" style="text-decoration: none"><center>Sociologia</center></a></button>
+			      <button class="dropdown-item" style="font-family:'Roboto Mono', monospace" type="button"><a href="historia.html" style="text-decoration: none"><center>História</center></a></button>
+			      <button class="dropdown-item" style="font-family:'Roboto Mono', monospace" type="button"><a href="filosofia.html" style="text-decoration: none"><center>Filosofia</center></a></button>
+				  <li class="dropdown-header"><center style="color:white; background-color: #a7a9ab; font-weight: bold;">Técnicos</li>
+				  <button class="dropdown-item" type="button"><a href="assets/pags-materias/tec/eletro.html" style="text-decoration: none"><center>Eletrônica</center></a></button>
+			      <button href="assets/pags-materias/tec/mm.html" style="font-family:'Roboto Mono', monospace" class="dropdown-item" type="button"><a href="assets/pags-materias/tec/mm.html" style="text-decoration: none"><center>Multimídia</center></a></button>
+			      <button href="assets/pags-materias/tec/pr.html" style="font-family:'Roboto Mono', monospace" class="dropdown-item" type="button"><a href="assets/pags-materias/tec/pr.html" style="text-decoration: none"><center>Programação</center></a></button>
+			      <button href="assets/pags-materias/tec/ep.html" style="font-family:'Roboto Mono', monospace" class="dropdown-item" type="button"><a href="assets/pags-materias/tec/ep.html" style="text-decoration: none"><center>Empreendedorismo</center></a></button>
+			      <button href="assets/pags-materias/tec/bt.html" style="font-family:'Roboto Mono', monospace" class="dropdown-item" type="button"><a href="assets/pags-materias/tec/bt.html" style="text-decoration: none"><center>Biotecnologia</center></a></button>
+			   	  <!--
+		          <li><a><center>Hebraico</center></a></li>
+			      <li><a><center>Inglês</center></a></li>
+			      <li><a><center>Gestão de Negócios</center></a></li>
+			      <li><a><center>Redação</center></a></li>
+			      <li><a><center>História Judaica</center></a></li>-->
+			  </div>
+		</div>
+		<div class="dflex">
+				 <button type="button" class="btn btn-secondary" id="botao2">
+			     <a class="nav-link" href="assets/pag-exercicios/index.html" style="color: white">Exercícios</a>
+			    </button>
+			  </div>
+		</div>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
-			
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="../../pag-exercicios/link-exs/unavailable/redirecionamento_nc.html"style="color: white">Exercícios de História</a>
-				</li>
-			</ul>
 		</div>
 	</div>
 	</nav>
