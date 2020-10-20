@@ -4,8 +4,25 @@ html, body {
 .full-height {
   height: 100%;
 }
+.exercice_box {
+	 border: none;
+     margin-left: 25%;
+     width: 50%;
+     border-radius: 10px;
+     display: inline-block;
+     background-color: #ededed;
+}
+.question_shown {
+     border: none;
+     float: right;
+     display: inline-block;
+     background-color: #ededed;
+     border-radius:10px;
+     width: 15%;
+     padding: 5% 5% 5% 2.5%;
+}
 .container-fluid a  img{
-	height: 100px;
+	 height: 100px;
 }
 
 hr{
@@ -56,23 +73,23 @@ body{
 	text-align: center;
 }
 .nc-home-2{
-	text-align: center;
-	word-spacing: 50px;
-	padding-top: 2.5%;
-	margin-bottom: 70px;
+	  text-align: center;
+	  word-spacing: 50px;
+	  padding-top: 2.5%;
+	  margin-bottom: 70px;
 }
 
 .nc-home-2 button:hover{
-	font-family:'Roboto Mono', monospace;
-    border: none;
-	background-color: #a7a9ab;
-	text-align: center;
+	  font-family:'Roboto Mono', monospace;
+      border: none;
+	  background-color: #a7a9ab;
+	  text-align: center;
 }
 .nc-home-1 button{
-	font-family:'Roboto Mono', monospace;
-    border: none;
-	background-color: #a7a9ab;
-	text-align: center;
+	  font-family:'Roboto Mono', monospace;
+      border: none;
+	  background-color: #a7a9ab;
+	  text-align: center;
 
 }
 
@@ -87,16 +104,15 @@ body{
 }
 
 .nc-title h1{
-	text-align: center;
-	font-size: 20px;
-	border-bottom: 1.2px solid black;
-	border-top: 1.2px solid black;
-	border-radius: 2px;
-	margin-left: 30%; 
-	margin-right: 30%; 
-	color:black;
-	border-width: 50%;
-	background-color: #F7F7F7;
+	  text-align: center;
+	  font-size: 20px;
+	  border-bottom: 1.2px solid black;
+	  border-top: 1.2px solid black;
+	  border-radius: 2px;
+	  margin-left: 30%; 
+	  margin-right: 30%; 
+	  color: black;
+	  border-width: 50%;
 }
 .home-title{
 	text-align: center;
@@ -148,8 +164,30 @@ body{
 	justify-content: center;
 	align-items: center;
 }
-#materiais{
+.selectquestion{
+	color: white;
+	border-radius: 8px;
+	font-family:'Roboto Mono', monospace;
+	border: none;
+	background-color: #a7a9ab;
 	text-align: center;
+	height: 100%;
+	width: 150%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.submit{
+	color: white;
+	font-family:'Roboto Mono', monospace;
+	border: none;
+	background-color: #a7a9ab;
+	text-align: center;
+	height: 50%;
+	width: 36%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .jumbotron{
@@ -203,28 +241,28 @@ body{
     font-weight: bold;
 }
 .sub-materiasexc5{ /*correcao especifica de alinhamento da div ** margin da lista ** */
-    text-align: center;
-    margin-bottom: 30%;
-    font-weight: bold;
+      text-align: center;
+      margin-bottom: 30%;
+      font-weight: bold;
 }
 
 .sub-materiasexc6{
-	margin-bottom: 37%;
-	text-align: center;
-	font-weight: bold;
+	  margin-bottom: 37%;
+	  text-align: center;
+	  font-weight: bold;
 }
 .display-4{
-    color: black;
-    font-family: monospace;
+      color: black;
+      font-family: monospace;
 }
 .display-4 {
-	font-size: 1.5rem;
+	  font-size: 1.5rem;
 }
 
 .scrollable-menu {
-    height: auto;
-    max-height: 200px;
-    overflow-x: hidden;
+      height: auto;
+      max-height: 200px;
+      overflow-x: hidden;
 }
 
 /*
@@ -247,27 +285,27 @@ body{
 }
 
 .exs-title{
-	color: #111; 
-	font-family: "Courier New";
-	font-size: 20px; 
-	letter-spacing: 1px; 
-	text-decoration: underline;
-	text-align: center;
+	  color: #111; 
+	  font-family: "Courier New";
+	  font-size: 20px; 
+	  letter-spacing: 1px; 
+	  text-decoration: underline;
+	  text-align: center;
 	
-	margin-top:20px;
+	  margin-top:20px;
 }
 
 ul{
-	font-family:'Roboto Mono', monospace;
-	border: none;
-	background-color: #a7a9ab;
-	border-radius: 8px;
+	  font-family:'Roboto Mono', monospace;
+	  border: none;
+	  background-color: #a7a9ab;
+	  border-radius: 8px;
 }
 
 li a:hover{
-	background-color: #173707;
-	color: white;
-	border-radius: 8px;
+	  background-color: #173707;
+	  color: white;
+	  border-radius: 8px;
 
 }
 
@@ -275,42 +313,42 @@ li a:hover{
 
 
 .back-button{ /*atributos botao 'voltar'*/
-	margin-left: 2%;
-	position: -webkit-sticky; /*safari*/
-	position: sticky; 
-	top: 0;
+	  margin-left: 2%;
+	  position: -webkit-sticky; /*safari*/
+	  position: sticky; 
+	  top: 0;
 }
 .back-button button{
-	font-family:'Roboto Mono', monospace;
-    border: none;
-	background-color: #a7a9ab;
-	text-align: center;
+	  font-family:'Roboto Mono', monospace;
+      border: none;
+	  background-color: #a7a9ab;
+	  text-align: center;
 }
 
 
 /*manuntencao logo pagina*//
 .container-fluid a img{
-	height: 50px;
+	  height: 50px;
 }
 
 
 
 .page-footer{
-	background-color: grey;
-	color: white;
-	margin-top: 5%;
+	  background-color: grey;
+	  color: white;
+	  margin-top: 5%;
 }
 .page-footer a{
-	text-decoration: none;
-	color: white;
+	   text-decoration: none;
+	   color: white;
 }
 
 .pdf{
-	text-align: center;
+	   text-align: center;
 }
 .pdf button{
-	margin-left: 30px;
-	margin-top: 25px;
+	    margin-left: 30px;
+	    margin-top: 25px;
 
 
 /*Media Queries*/
