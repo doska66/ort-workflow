@@ -224,6 +224,11 @@ body{
     margin-bottom: 63%;
     font-weight: bold;
 }
+.sub-materiasexc14{
+	text-align: center;
+    margin-bottom: 73%;
+    font-weight: bold;
+}
 .sub-materiasexc17{
 	text-align: center;
     margin-bottom: 92%;
@@ -359,7 +364,7 @@ li a:hover{
 .pdf button{
 	    margin-left: 30px;
 	    margin-top: 25px;
-
+}
 
 /*Media Queries*/
 
