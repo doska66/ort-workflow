@@ -40,11 +40,11 @@ li{
 	 font-family:'Roboto Mono',monospace;
 }
 .title{
-	color: #111; 
+	color: #111;
 	font-family: "Century Gothic", sans-serif;
-	font-size: 25px; 
-	font-weight: bold; 
-	letter-spacing: 1px; 
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 1px;
 	text-decoration: blink;
 	text-align: center;
 	top: 0;
@@ -109,8 +109,8 @@ body{
 	  border-bottom: 1.2px solid black;
 	  border-top: 1.2px solid black;
 	  border-radius: 2px;
-	  margin-left: 30%; 
-	  margin-right: 30%; 
+	  margin-left: 30%;
+	  margin-right: 30%;
 	  color: black;
 	  border-width: 50%;
 }
@@ -134,8 +134,8 @@ body{
 	border-top: 2.0px solid black;
 	border-radius: 30px;
 	background-color: #99004D;
-	margin-left: 30%; 
-	margin-right: 30%; 
+	margin-left: 30%;
+	margin-right: 30%;
 	color:white;
 }
 */
@@ -196,7 +196,7 @@ body{
 	padding-bottom: 0px;
 	margin-top: 30px;
 	margin-bottom: 40px;
-	
+
 }
 
 
@@ -206,7 +206,7 @@ body{
 }
 
 .tec-home-1 button{
-	margin-top: 2.5%; 
+	margin-top: 2.5%;
 	margin-bottom: 3.5%;
 	color:white;
 	background-color: #1C1C1C;
@@ -218,54 +218,7 @@ body{
 
 }
 
-/*Material de estudo *resumos* */
-.sub-materiasexc12{ 		/*excNUMERO corresponde ao numero de sub materias*/
-    text-align: center;
-    margin-bottom: 63%;
-    font-weight: bold;
-}
-.sub-materiasexc14{
-	text-align: center;
-    margin-bottom: 73%;
-    font-weight: bold;
-}
-.sub-materiasexc17{
-	text-align: center;
-    margin-bottom: 92%;
-    font-weight: bold;
-}
-.sub-materiasexc9{
-	text-align: center;
-    margin-bottom: 49%;
-    font-weight: bold;
-}
-.sub-materiasexc7{ /* [exc]-> correcao especifica de alinhamento da div ** margin da lista ** */
-    text-align: center;
-    margin-bottom: 40%;
-    font-weight: bold;
-}
 
-.sub-materiasexc3{ /*correcao especifica de alinhamento da div ** margin da lista ** */
-    text-align: center;
-    margin-bottom: 24%;
-    font-weight: bold;
-}
-.sub-materiasexc4{ /*correcao especifica de alinhamento da div ** margin da lista ** */
-    text-align: center;
-    margin-bottom: 27%;
-    font-weight: bold;
-}
-.sub-materiasexc5{ /*correcao especifica de alinhamento da div ** margin da lista ** */
-      text-align: center;
-      margin-bottom: 30%;
-      font-weight: bold;
-}
-
-.sub-materiasexc6{
-	  margin-bottom: 37%;
-	  text-align: center;
-	  font-weight: bold;
-}
 .display-4{
       color: black;
       font-family: monospace;
@@ -300,13 +253,13 @@ body{
 }
 
 .exs-title{
-	  color: #111; 
+	  color: #111;
 	  font-family: "Courier New";
-	  font-size: 20px; 
-	  letter-spacing: 1px; 
+	  font-size: 20px;
+	  letter-spacing: 1px;
 	  text-decoration: underline;
 	  text-align: center;
-	
+
 	  margin-top:20px;
 }
 
@@ -330,7 +283,7 @@ li a:hover{
 .back-button{ /*atributos botao 'voltar'*/
 	  margin-left: 2%;
 	  position: -webkit-sticky; /*safari*/
-	  position: sticky; 
+	  position: sticky;
 	  top: 0;
 }
 .back-button button{

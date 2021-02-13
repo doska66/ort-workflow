@@ -1,0 +1,27 @@
+.lista_materias{
+  background-color: #a7a9ab;
+  font-family:'Roboto Mono', monospace;
+}
+
+.lista_materias li{
+  margin-bottom: 40px;
+  border-bottom: 2px black;
+}
+
+.lista_materias li h4{
+  color: white;
+}
+
+.materia a{
+  color:white;
+}
+
+.materia a:hover{
+  color: black;
+}
+.materia{
+  border: 3px solid black;
+}
+.materia a:hover{
+  color:black;
+}
